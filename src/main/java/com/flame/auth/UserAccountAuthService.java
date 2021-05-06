@@ -7,14 +7,14 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootSecurityJwtApplication {
+public class UserAccountAuthService {
 
-	private static final Logger logger = LoggerFactory.getLogger(SpringBootSecurityJwtApplication.class);
+	private static final Logger logger = LoggerFactory.getLogger(UserAccountAuthService.class);
 	public static void main(String[] args) {
 		logger.info("this is a info message");
 		logger.warn("this is a warn message");
 		logger.error("this is a error message");
-		SpringApplication.run(SpringBootSecurityJwtApplication.class, args);
+		SpringApplication.run(UserAccountAuthService.class, args);
 	}
 
 }
